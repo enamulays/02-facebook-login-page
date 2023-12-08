@@ -1,0 +1,85 @@
+@media screen and (max-width:980px){
+    .logo-area{
+        width:100%;
+        float:none;
+        text-align:center;
+    }
+    .login-area{
+        width:100%;
+        float:none;
+        margin:auto;
+    }
+    .login-area form{
+        float:none;
+        box-sizing:border-box;
+    }
+    .left-area {
+        width:100%;
+        float:none;
+    }
+    .right-area {
+        width:100%;
+        float:none;
+    }
+}
+@media screen and (max-width:768px){
+    .login-area .email,
+    .login-area .password,
+    .login-area .login{
+        float:none;
+    }
+    .login-area input[type="submit"]{
+        margin-top:8px;
+    }
+    .login-area .password{
+        margin-top:10px;
+    }
+    .login-area input[type="text"],
+    .login-area input[type="password"]{
+        width:100%;
+    }
+    .birth-date {
+        margin-top:10px;
+    }
+    .birth-link {
+    margin-top:15px
+   }
+}
+ /* end Sign Up area*/
+ .footer-area{
+    padding:10px 0;
+ }
+.footer-area ul {
+    padding:0;
+    margin:0;
+}
+.footer-area ul li {
+    display:inline;
+    font-size:12px;
+    margin-right:0px;
+}
+.footer-area .top ul li {
+    margin-right:5px;
+}
+.footer-area .top ul li:last-child a {
+    border: 1px solid #999;
+    padding:0 6px; 
+}
+.footer-area ul li a {
+    text-decoration:none;
+}
+.footer-area hr {
+    border:0;
+    border-bottom:1px solid #d4d4d4
+}
+.footer-area .middle ul li a {
+    margin-right:10px;
+}
+.footer-area ul li.active a{
+    color:#737373
+}
+.footer-area .bottom {
+    color:#737373;
+    font-size:13px;
+    margin-top:20px;
+}

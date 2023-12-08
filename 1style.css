@@ -1,0 +1,212 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family:'open-sans', sans-serif;
+}
+.header{
+    background-color:#4867AA;
+    padding-top: 6px;
+}
+.header::after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.container{
+    width:65%;
+    margin:auto;
+}
+.logo-area{
+    width:30%;
+    float:left;
+}
+.logo-area img{
+    width:200px;
+}
+.login-area{
+    width:70%;
+    float:left;
+    color:white;
+    margin-top:10px;
+}
+.login-area form{
+    float:right;
+}
+.login-area label,
+.login-area input{
+    display:block;
+}
+.login-area label{
+    font-size:12px;
+    margin-bottom:4px;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login{
+    float:left;
+    margin-right:12px;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border:1px solid black;
+    padding:2px 2px;
+    font-size:14px;
+}
+.login-area .password a{
+    color:white;
+    font-size:12px;
+    text-decoration: none;
+}
+.login-area .password a:hover{
+    text-decoration:underline;
+    background:#6581bd;
+}
+.login-area input[type="submit"]{
+    background-color:rgb(52, 52, 161);
+    border:1px solid rgb(22, 22, 73);
+    padding:2px;
+    margin-top:19px;
+    color:white;
+}
+/*end header area*/
+.sign-up-area {
+    background:linear-gradient(white,#D3D9E9, #C6CDE8, #C6CEE1);
+    padding:20px;
+}
+.sign-up-area::after {
+    content:'';
+    clear:both;
+    display:flex;
+}
+.left-area{
+    width:55%;
+    float:left;
+}
+.left-area img {
+    width:90%;
+}
+.left-area p{
+    width:90%;
+    font-size:20px;
+    font-weight:600;
+}
+.right-area{
+    width:45%;
+    float:left;
+}
+.right-area h2 {
+    margin:0;
+}
+.right-area h4 {
+    margin-top:5px;
+    margin-bottom:10px;
+    font-weight:400;
+}
+.right-area input[type="text"],
+.right-area input[type="password"] {
+    width:100%;
+    box-sizing:border-box;
+    border: 1px solid #bdc7d8;
+    border-radius:4px;
+    padding:8px 10px;
+    font-size:18px;
+    margin:5px 0px;
+}
+.full-name {
+    overflow:hidden;
+}
+.first-name {
+    width:48%;
+    float:left;
+    margin-right:4%;
+}
+.surname {
+    width:48%;
+    float:left;
+}
+.birthday {
+    overflow:hidden;
+}
+.birthday h4{
+    margin-top:0;
+    margin-bottom:5px;
+}
+.birth-date {
+    margin-right:10px;
+    margin-bottom:10px;
+    overflow:hidden;
+    float:left;
+    width:210px;
+}
+.birth-date select {
+    overflow:hidden;
+    border: 1px solid #ccc;
+    padding:5px;
+    float:left;
+}
+.birth-link{
+    float:left;
+    width:160px;
+    font-size:14px;
+    margin-top:20px;
+}
+.birth-link a {
+    display:block;
+    font-size:12px;
+    text-decoration:none;
+    color:#365899
+}
+.birth-link a:hover {
+    text-decoration:underline;
+}
+.gender label {
+    font-size:20px;
+    font-weight:550;
+    color:#1d2129;
+}
+.text-box {
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.text-box p {
+    font-size:13px;
+    width:80%
+}
+.text-box a {
+    text-decoration:none;
+    color:#365899;
+}
+.text-box a:hover {
+    text-decoration:underline
+}
+.btn {
+    margin-bottom: 30px;
+}
+.btn input {
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color:#3b6e22 #3b6e22 #2c5115;
+    border-style:solid;
+    border-width:1px;
+    padding: 7px 14px;
+    min-width: 194px;
+    color: white;
+    font: weight 600;
+    border-radius:4px;
+    font-size:20px;
+    transition: .5s;
+} 
+.btn input:hover {
+    background: linear-gradient(#578843,#67ae55);
+    cursor:pointer;
+}
+.businees {
+    weight:600; 
+}
+.business a {
+    text-decoration:none;
+    color:#365899;
+}
+.business a:hover {
+    text-decoration:underline;
+}
