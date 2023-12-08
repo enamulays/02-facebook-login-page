@@ -25,11 +25,11 @@
 @media screen and (max-width:768px){
     .login-area .email,
     .login-area .password,
-    .login-area .login{
-        float:none;
+    .login-area .login {
+        float: none;
     }
     .login-area input[type="submit"]{
-        margin-top:8px;
+        margin-top:5px;
     }
     .login-area .password{
         margin-top:10px;
@@ -42,9 +42,16 @@
         margin-top:10px;
     }
     .birth-link {
-    margin-top:15px
+    margin-top:15px;
+   }
+   .login-area .login {
+    margin-bottom: 10px;
+   }
+   .header {
+    padding-bottom: 5px;
    }
 }
+
  /* end Sign Up area*/
  .footer-area{
     padding:10px 0;
